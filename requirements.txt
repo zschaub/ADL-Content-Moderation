@@ -1,0 +1,6 @@
+requests
+pandas
+contractions
+word2number
+unidecode
+scikit-learn
