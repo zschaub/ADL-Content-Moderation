@@ -4,3 +4,5 @@ contractions
 word2number
 unidecode
 scikit-learn
+seaborn
+matplotlib
