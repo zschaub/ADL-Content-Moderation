@@ -31,23 +31,26 @@ To prepare the dataset I followed the following steps:
 ## Results
 
 ### Deep Learning
-Deep Learning Accuracy = 0.92
+Deep Learning Accuracy = 0.92  
+F1-Score = 0.74  
 ![Deep Learning Confusion Matrix](figs/deep-cm.png)
 
 ### Rules-Based Model
-Rules-Based Accuracy = 0.17
+Rules-Based Accuracy = 0.17  
+F1-Score = 0.27  
 ![Rules-Based Confusion Matrix](figs/rules-cm.png)
 
 ### Dual Architecture Model
-Dual Architecture Accuracy = 0.90
+Dual Architecture Accuracy = 0.90  
+F1-Score = 0.64  
 ![Dual Architecture Confusion Matrix](figs/dual-cm.png)
 
 ### Results
 
-| Model             | Accuracy |
-|-------------------|----------|
-| Deep Learning     | 0.92     |
-| Rules Based Model | 0.17     |
-| Dual Architecture | 0.90     |
+| Model             | Accuracy | F1-Score|
+|-------------------|----------|---------|
+| Deep Learning     | 0.92     | 0.74    |
+| Rules Based Model | 0.17     | 0.27    |
+| Dual Architecture | 0.90     | 0.64    |
 
 The Dual Architecture model had slightly worse accuracy so in this implementation I would stick with the Deep Learning model. Rules Based Models have poor accuracy so I would recommend going with a differnet option.
